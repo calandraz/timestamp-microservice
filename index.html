@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Timestamp Microservice</title>
+
+    <!-- Bootstrap -->
+   <!-- <link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <script src="server.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Timestamp Microservice</h1>
+    <blockquote>
+      <p>User Stories: </p>
+      <p>1. I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</p>
+      <p>2. If it does, it returns both the Unix timestamp and the natural language form of that date.</p>
+      <p>3. If it does not contain a date or Unix timestamp, it returns null for those properties.</p>
+    </blockquote>
+    <h3>Example usage: </h3>
+    <code>https://timestamp-microservice-calandraz-1.c9users.io/December%2015,%202015</code><br />
+    <code></code>
+    
+    <h3>Example output: </h3>
+    <code>{ unix: 1450137600, natural: "December 15, 2015" }</code>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--<script src="js/bootstrap.min.js"></script>-->
+   </div>
+  </body>
+</html>
