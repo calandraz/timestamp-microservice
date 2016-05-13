@@ -20,5 +20,13 @@
     "jquery": "^2.2.3",
     "moment": "^2.13.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calandraz/timestamp-microservice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/calandraz/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/calandraz/timestamp-microservice#readme"
 }
